@@ -1,0 +1,34 @@
+Analisi Database:
+
+Produk
+ 1. Nama Produk
+ 2. Harga Produk
+ 3. Deskripsi Produk
+ 4. Slug
+ 5. Soft Deletes
+
+Galeri Produk
+ 1. Relasi ke Produk
+ 2. URL Gambar
+ 3. Is Featured
+ 4. Soft Deletes
+
+Cart
+ 1. Relasi ke User
+ 2. Relasi ke Produk
+
+Transaksi
+ 1. Relasi ke User
+ 2. Data Diri dari Pembeli
+ 3. Data Kurir
+ 4. Data Pembayaran
+ 5. Total Harga
+ 6. Status
+
+Item Transaksi
+ 1. Relasi ke User
+ 2. Relasi ke Produk
+ 3. Relasi ke Transaksi
+
+User
+ 1. Roles (admin/user)
